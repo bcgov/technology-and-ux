@@ -12,7 +12,7 @@ Ask your Product Owner to begin working on our onboarding [Public Cloud Adopter 
 
 - Purpose of Your Mission
 - Team Roles & Practices
-- Cloud Selection Provider (CSP) Selection Rationale
+- Cloud Service Provider (CSP) Selection Rationale
 - MOU for Cloud Costs
 
 Let us know if you need help with these forms: [Cloud.Pathfinder@gov.bc.ca](mailto:Cloud.Pathfinder@gov.bc.ca)
