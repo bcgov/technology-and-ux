@@ -16,15 +16,17 @@ Add any other context, attachments or screenshots
 **Acceptance Criteria**
 A set of pre-defined requirement that need to be met in order to mark the user story as “done”.  See below for team agreement details.
 
-
-
-
-
-
-
-
-
-
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
 
 **Extra Template Info**
 
