@@ -9,7 +9,7 @@ We now need to set-up our Github repository and workflow to use them and deploy!
 
 ## Set up of the Github environment
 
-Now that we can use the AWS Iam role in our Github actions to access the AWS account we need to set up the workflow to do so.
+Now that we can use the AWS Iam role in our Github actions to access the AWS account the workflow has to be set up to do so.
 For that we are gonna have to provide to the Github workflow the unique AWS identifier of the IAM role to assume (ARN).
 
 We can use the GitHub environment to set in each of them (dev,test and prod) the right AWS IAM Role ARN in a secret environment variable (see documentation)[https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment]

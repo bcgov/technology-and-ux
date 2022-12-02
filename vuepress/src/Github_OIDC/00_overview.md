@@ -1,10 +1,12 @@
 # Overview
 Welcome!
 
-In these documentation you will explore the authentication process to access AWS Cloud through Github action witch Github OIDC.  
-Also we will show how to use this with terraform.
+In these documentation you will explore the authentication process to access AWS (Amazon web services) Cloud through Github action witch Github OIDC (OpenID Connect).  
 
-This integration will allow you to create easy automated pipeline.   To do so we will see how to setup the Github repository and the AWS IAM role to provide access to Github action. 
+Also we will present how to use this authentication with terraform as it removes the need of using Terraform cloud.
+
+This integration will allow to create easy automated pipeline.  
+To do so we will see how to setup the Github repository and the AWS IAM role to provide access to Github action. 
 
 ![](images/GitHub-OIDC_arch.png)
 

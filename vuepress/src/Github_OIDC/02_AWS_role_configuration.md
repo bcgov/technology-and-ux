@@ -5,11 +5,11 @@ First we will see the configuration on the AWS side.
 ## Concept
 It is important to understand that in this OIDC Authentication we give the right to the Github action workflow to assume a role in AWS.  
 In most of our configurations we are using this role to give access to Terraform.  
-Nonetheless it's not the only way to use this mechanism, for example you could use it to push a Docker image in a AWS ECR (Amazon Elastic Container Registry) [see exemple](https://github.com/bcgov/startup-sample-project-aws-containers/blob/main/.github/workflows/push.yaml#:~:text=%2D%20name%3A%20Configure%20AWS%20Credentials,tags%3A%20%24%7B%7B%20env.IMAGE_ID%20%7D%7D%3A%24%7B%7B%20github.sha%20%7D%7D)
+Nonetheless it's not the only way to use this mechanism, for example it could be use to push a Docker image in a AWS ECR (Amazon Elastic Container Registry) [see exemple, focus on docker_push job](https://github.com/bcgov/startup-sample-project-aws-containers/blob/main/.github/workflows/push.yaml#:~:text=%2D%20name%3A%20Configure%20AWS%20Credentials,tags%3A%20%24%7B%7B%20env.IMAGE_ID%20%7D%7D%3A%24%7B%7B%20github.sha%20%7D%7D)
 
 ## Creation of the AWS IAM Roles
-As explained previously we are trying to assume IAM roles, so they have to be created in the accounts on which you want your Github action to connect to.  
-If you are using regular workflow you should be using multiple accounts (dev,test,prod). In this regards you should have an AWS IAM role in each of them.  
+As explained previously we are trying to assume IAM roles, so they have to be created in the accounts on which the Github action connect to.  
+If you are using regular workflow you should be using multiple accounts (dev,test,prod). In this regards a role should have been created in each of them.  
 (we will see later how to make your GitHub action use the right role with Github environment)
 
 ### AWS IAM Roles Trust relationship
