@@ -1,7 +1,7 @@
 # Overview
 Welcome!
 
-In these documentation you will explore the authentication process to access AWS (Amazon web services) Cloud through Github action witch Github OIDC (OpenID Connect).  
+In these documentation we will explore the authentication process to access AWS (Amazon web services) Cloud through Github action witch Github OIDC (OpenID Connect).  
 
 Also we will present how to use this authentication with terraform as it removes the need of using Terraform cloud.
 
