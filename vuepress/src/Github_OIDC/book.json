@@ -1,0 +1,8 @@
+{
+    "title": "OIDC",
+    "plugins": ["fancybox"],
+    "pluginsConfig": {
+        "fancybox": {}
+    }
+}		
+

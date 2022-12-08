@@ -1,8 +1,0 @@
-{
-    "title": "OpenShift 101 Lab",
-    "plugins": ["fancybox"],
-    "pluginsConfig": {
-        "fancybox": {}
-    }
-}		
-
