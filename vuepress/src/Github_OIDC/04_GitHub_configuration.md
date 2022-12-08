@@ -1,7 +1,9 @@
 # Github configuration
 
 ## Context
-The creation of AWS IAM roles ARN necesary in this page has been covered in previous steps  
+```
+AWS IAM role creation has been covered in the previous document
+```
 
 These AWS IAM roles must have been configured to trust the Github repository from which the application / Infrastructure / Docker (etc...) it's deployed.
 

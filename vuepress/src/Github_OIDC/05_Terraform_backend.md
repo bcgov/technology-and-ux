@@ -30,7 +30,12 @@ terraform {
 }
 ```
 
-You can find a example of the same configuration implement in a more flexible manner on this the [virtual machine sample app](https://github.com/bcgov/startup-sample-project-aws-virtual-machines):
+```
+This implementation is limited if hard coded as the Backend will not be dynamic, and so it can be used in only one environment (or AWS Account).
+```
 
- - Here is the [Terraform backend configuration](https://github.com/bcgov/startup-sample-project-aws-virtual-machines/blob/main/terraform/versions.tf#:~:text=terraform%20%7B-,backend%20%22s3%22%20%7B%7D,-required_providers%20%7B)
+For the backend to be dynamic, variables has to be use to configure the backend parameter to access the S3 bucket of the account in which the resources are deployed.
+A good example is the [virtual machine sample app](https://github.com/bcgov/startup-sample-project-aws-virtual-machines):
+
+ - Here is the [Terraform backend configuration](https://github.com/bcgov/startup-sample-project-aws-virtual-machines/blob/main/terraform/versions.tf#:~:text=terraform%20%7B-,backend%20%22s3%22%20%7B%7D,-required_providers%20%7B) (Left blanked as filled dynamically)
  - Here is the [Dynamic value for the terraform backend configuration](https://github.com/bcgov/startup-sample-project-aws-virtual-machines/blob/main/.github/workflows/deploy_dev.yml#:~:text=cat%20%3C%3CEOF%20%3E%20backend,EOF)

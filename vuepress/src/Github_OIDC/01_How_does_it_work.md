@@ -4,6 +4,13 @@
 OpenID Connect (OIDC) allows GitHub Actions workflows to access resources in Amazon Web Services (AWS), without needing to store the AWS credentials as long-lived GitHub secrets.
 
 ## Architecture
+
+```
+GitHub action starts, try to assume the IAM Role through the OIDC component, AWS verifies the trust relationship match the GitHub repository, then if granted by AWS access to the role and policy, Github action can deploy resources and terraform can save state and lock in s3 and Dynamodb. 
+```
+
+
+
 ![image](images/OIDC_Implementation.png)
 
 ```

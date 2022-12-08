@@ -1,6 +1,6 @@
 # AWS IAM configuration
 ```
-Please notice that this procedure has to be executed for each account on which you want to deploy apps 
+Please notice this procedure has to be executed for each account on which you want to deploy apps 
 ```
 
 
@@ -11,11 +11,11 @@ Nonetheless it's not the only context where OIDC authencation can be used. For e
 
 ## Creation of the AWS IAM Roles
 As mention previously we are trying to assume IAM roles, so the roles has to be created in the accounts on which the Github action connect to.  
-If you are using regular workflow you should be using multiple accounts (dev,test,prod).   In this regards a role should have been created in each of them.  
+If you are using `Dev/Test/Production` you should be using multiple accounts (dev,test,prod).   In this regards a role should have been created in each of them.  
 (Later in this document it will be shown how to make GitHub action use the right role with [Github Environment](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment))
 
 ### AWS IAM Roles Trust relationship
-This is the configuration that state who has the right to assume the role.  
+This is the configuration that states who has the right to assume the role.  
 In the OIDC context it means which repository or more precisely which organization/repo/branch is linked to the AWS IAM role.
 
 The following example is a configuration block defined in the `JSON File` describing the IAM Role.
