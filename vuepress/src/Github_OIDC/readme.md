@@ -8,7 +8,7 @@ Also we will present how to use this authentication with terraform as it removes
 This integration will allow to create easy automated pipeline.  
 To do so we will see how to setup the Github repository and the AWS IAM role to provide access to Github action. 
 
-![](images/GitHub-OIDC_arch.png)
+![](./images/oidc-architecture.png)
 
 ## Who is this for?
 

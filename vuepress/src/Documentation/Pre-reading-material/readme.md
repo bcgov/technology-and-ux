@@ -17,3 +17,4 @@ Today we will go over the below topics
 * [Service Levels](./000900_service_levels.md)
 * [Demos](./001000_demo.md)
 * [Questions & Answers](./001100_questions.md)
+* [Training & Resources](./001200_training.md)

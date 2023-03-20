@@ -15,23 +15,13 @@ export const en: NavbarConfig = [
             text: "Pre-Reading Material",
             link: "/Documentation/Pre-reading-material/",
           },
-        ],
-      },
-      
-    ],
-  },
-  {
-    text: "Courses",
-    children: [
-      {
-        text: "OpenShift",
-        children: [
           {
-            text: "OpenShift 101",
-            link: "/openshift101/",
+            text: "GitHub OIDC",
+            link: "/Github_OIDC/",
           },
         ],
       },
+      
     ],
   },
   {
