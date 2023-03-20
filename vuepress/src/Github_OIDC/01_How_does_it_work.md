@@ -11,7 +11,7 @@ GitHub action starts, try to assume the IAM Role through the OIDC component, AWS
 
 
 
-![image](images/OIDC_Implementation.png)
+![image](./images/OIDC_Implementation.png)
 
 ```
 A project-set is a collections of AWS Account provided by the CPF Team to the Ministry teams.

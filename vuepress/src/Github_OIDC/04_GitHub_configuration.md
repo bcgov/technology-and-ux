@@ -19,7 +19,7 @@ For that the [Github environment](https://docs.github.com/en/actions/deployment/
 To create the different Github environment needed, please follow [this documentation](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#creating-an-environment).   
 
 The GitHub environment are use to set, in each of *dev,test and prod*, the *previously stored* AWS IAM Role ARN as a secret environment variable [see documentation](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment#environment-secrets)
-![](images/Github_environment_secrets.png)
+![](./images/Github_environment_secrets.png)
 
 In the configuration file of the github action the right environment is selected using the key `environment`:
 

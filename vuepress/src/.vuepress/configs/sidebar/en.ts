@@ -7,32 +7,6 @@ export const en: SidebarConfig = {
       children: ["", "using-vue"],
     },
   ],
-  "/openshift101/": [
-    {
-      text: "OpenShift 101",
-      children: [
-        "00_overview",
-        "01_setup.md",
-        "01_adding_team_members",
-        "01b_web_console_overview.md",
-        "02_builds.md",
-        "03_deployment.md",
-        "04_configuring_deployments.md",
-        "05_resource_management.md",
-        "06_application_availability.md",
-        "07_autoscaling.md",
-        "08_persistent_storage.md",
-        "09_persistent_configurations.md",
-        "10_event_streams.md",
-        "11_debugging_containers.md",
-        "12_logging_and_visualizations.md",
-        "13_metrics.md",
-        "14_cheatsheet.md",
-        "15_pod_lifecycle.md",
-        "SUMMARY.md",
-      ],
-    },
-  ],
   "/Documentation/Pre-reading-material/": [
     {
       text: "Pre Reading Material",
@@ -48,7 +22,21 @@ export const en: SidebarConfig = {
         "000900_service_levels.md",
         "001000_demo.md",
         "001100_questions.md",
+        "001200_training.md",
       ],
+    },
+  ],
+  "/Github_OIDC/": [
+    {
+      text: "Github-OIDC",
+      children: [
+      "01_How_does_it_work.md",
+      "02_OIDC_Configuration.md",
+      "03_AWS_configuration.md",
+      "04_GitHub_configuration.md",
+      "05_Terraform_backend.md",
+      "06_readmore.md"
+    ],
     },
   ],
 };
