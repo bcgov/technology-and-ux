@@ -30,12 +30,11 @@ export const en: SidebarConfig = {
     {
       text: "Github-OIDC",
       children: [
-      "01_How_does_it_work.md",
-      "02_OIDC_Configuration.md",
-      "03_AWS_configuration.md",
-      "04_GitHub_configuration.md",
-      "05_Terraform_backend.md",
-      "06_readmore.md"
+      "01_Intraduction.md",
+      "02_Configuring_AWS_to_use_OIDC.md",
+      "03_Configuring_OIDC_in_GitHub.md",
+      "04_Refining_the_policies.md",
+      "05_readmore.md"
     ],
     },
   ],
