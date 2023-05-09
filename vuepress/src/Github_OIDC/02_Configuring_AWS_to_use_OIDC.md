@@ -93,7 +93,7 @@
 
   - In the following screenshot the policies `Registry_Deployment_IAM_Policy_for_Con-tainers_App_Part1` and `Registry_Deployment_IAM_Policy_for_Containers_App_Part2` have been added to the list of policies for the role
 
-    ![Policies](./images/oidc-Picture1.png)
+    ![Policies](./images/oidc-picture1.png)
 
     i. Give the role a name (in this example we will use the name testOIDCrole), write a description of it, review the information.
     - Note: In the above page you will find the Select trusted entities section with an Edit button that sug-gests that is possible to edit the trusted entities from this page. When going through this procedure, the Edit button simply returned to the previous step in the role creation procedure. In this context, the instructions in this How to suggest proceeding and later edit the trusted entities (step k)
@@ -101,7 +101,7 @@
     j. Go to the end of the page and click on the Create Role button.
 
     k. Once created, search and open the role . You can add, remove permissions, and edit the trusted entities by opening the Trust relationships tab and clicking on the Edit trust policy
-    ![Trust Relationships](./images/oidc-Picture-2.png)
+    ![Trust Relationships](./images/oidc-picture-2.png)
 
     tweak it to be like below
 
@@ -151,7 +151,7 @@ l. Once the Trust relationships have been edited, click the Update policy button
 
 m. Find and save the arn for the newly created role. In the previous example, from the above screenshot
 
-![arn](./images/oidc-Picture-3.png)
+![arn](./images/oidc-picture-3.png)
 
 would be:
 arn:aws:iam::512345678906:role/testOIDCrole
