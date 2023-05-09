@@ -93,7 +93,7 @@
 
   - In the following screenshot the policies `Registry_Deployment_IAM_Policy_for_Con-tainers_App_Part1` and `Registry_Deployment_IAM_Policy_for_Containers_App_Part2` have been added to the list of policies for the role
 
-    ![Policies](./images/oidc-picture1.png)
+    ![Policy](./images/policy.png)
 
     i. Give the role a name (in this example we will use the name testOIDCrole), write a description of it, review the information.
     - Note: In the above page you will find the Select trusted entities section with an Edit button that sug-gests that is possible to edit the trusted entities from this page. When going through this procedure, the Edit button simply returned to the previous step in the role creation procedure. In this context, the instructions in this How to suggest proceeding and later edit the trusted entities (step k)
