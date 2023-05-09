@@ -179,6 +179,12 @@ arn:aws:iam::512345678906:role/testOIDCrole
         aws s3api create-bucket --bucket terraform-remote-state-167465127160 --region ca-central-1 --create-bucket-configuration LocationConstraint=ca-central-1
     ```
 
+    - To enable bucket versioning on the created s3 bucket `terraform-remote-state-167465127160` you can use the following command
+
+    ```bash
+        aws s3api put-bucket-versioning --bucket terraform-remote-state-167465127160 --versioning-configuration Status=Enabled
+    ```
+
     `Note that the S3 bucket names should be globally unique. So please change the bucket name highlighted to a unique name. In the above bucket example we used the bucket name followed by a AWS AccountID which is unique to each AWS account.`
 
     - To create a DynamoDB table with the name `Terraform-backend-lock-167465127160` to store the lock files you can use the following command
