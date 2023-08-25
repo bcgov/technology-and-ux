@@ -33,11 +33,11 @@
             "Action": [
                 "s3:CreateBucket",
                 "s3:ListBucket",
-                "s3:DeleteBucket",
-                ],
-            "Resource": [*]
+                "s3:DeleteBucket"
+            ],
+            "Resource": ["*"]
         }
-        ]
+    ]
 }
 ```
 
@@ -55,13 +55,13 @@
             "Action": [
                 "s3:CreateBucket",
                 "s3:ListBucket",
-                "s3:DeleteBucket",
-                ],
+                "s3:DeleteBucket"
+            ],
             "Resource": [
                 "arn:aws:s3:::upload-bucket*"
             ]
         }
-        ]
+    ]
 }
 ```
 
